@@ -10,7 +10,9 @@ body {
   display: none ; /* For Chrome, Safari, and Edge */
 }
 
-
+div{
+  /* border: 1px solid yellow; */
+}
 
 @layer base {
   :root {
