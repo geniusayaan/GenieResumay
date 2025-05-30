@@ -20,7 +20,7 @@ export default function LandingPage() {
   </p>
   <Link href="/resumes">
     <button className="mt-8 px-8 py-4 text-lg font-semibold bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-200">
-      Start Building Now
+      Start Building Now SHAKIRRRRRRR
     </button>
   </Link>
 </section>
