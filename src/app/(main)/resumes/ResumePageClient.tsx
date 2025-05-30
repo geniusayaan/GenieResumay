@@ -25,7 +25,11 @@ const ResumePageClient = ({ resumes, totalResumeCount }: ResumePageClientProps) 
   };
 
   return (
+
+    <div className="w-2/3 flex justify-center">
+
     <main className="mx-auto w-full max-w-7xl space-y-8 px-4 py-8">
+      
       {/* Button Row */}
       <div className="flex flex-wrap justify-center sm:justify-start gap-4">
         <Link href="/editor">
@@ -54,6 +58,8 @@ const ResumePageClient = ({ resumes, totalResumeCount }: ResumePageClientProps) 
         ))}
       </div>
     </main>
+
+    </div>
   );
 };
 
