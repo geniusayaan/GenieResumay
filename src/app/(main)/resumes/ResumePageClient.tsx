@@ -31,7 +31,7 @@ const ResumePageClient = ({ resumes, totalResumeCount }: ResumePageClientProps) 
     <main className="mx-auto w-full max-w-7xl space-y-8 px-4 py-8">
       
       {/* Button Row */}
-      <div className="flex flex-wrap justify-center sm:justify-start gap-4">
+      <div className="w-[100vw]  flex flex-wrap justify-center sm:justify-start gap-4 ">
         <Link href="/editor">
           <Button className="flex items-center gap-2 bg-white text-black border border-gray-300 rounded-full px-6 py-2 hover:bg-gray-100 transition">
             <PlusCircleIcon className="w-4 h-4" />
