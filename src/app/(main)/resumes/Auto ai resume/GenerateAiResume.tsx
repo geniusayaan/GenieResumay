@@ -24,8 +24,8 @@ const GenerateAiResume = ({onResumeDataGenerated}:GenerateAiResumeProps) => {
     
   return (
     <>
-    <Button className='rounded-full space-y-1 w-[7rem] h-[1.5rem] sm:h-[2rem] sm:w-[9rem]
-    md:h-[2rem] md:w-[8rem] lg:h-[3rem] lg:w-[9rem] xl:h-[3rem] xl:w-[10rem] hover:bg-purple-900 bg-purple-950 text-white' onClick={()=>setShowInputDilog(true)}>{pathname==="/editor"?"Update with AI":"Generate With AI"}   
+    <Button className='rounded-full space-y-1 p-2 w-[9rem] h-[3rem] sm:h-[3rem] sm:w-[9rem]
+    md:h-[3rem] md:w-[10rem] lg:h-[4rem] lg:w-[12rem] xl:h-[4rem] xl:w-[15rem] hover:bg-purple-900 bg-purple-950 text-white' onClick={()=>setShowInputDilog(true)}>{pathname==="/editor"?"Update with AI":"Generate With AI"}   
     </Button>
     
    <InputDialog onResumeDataGenerated={(resumeData=>{

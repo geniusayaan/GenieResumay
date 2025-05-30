@@ -30,11 +30,12 @@ const ResumePageClient = ({resumes,totalResumeCount}:ResumePageClientProps) => {
 
   return (
     
-        <main className="mx-auto w-full max-w-7xl space-y-6 px-3 py-6">
-<div className='flex gap-4'>
+        <main className="flex flex-col mx-auto w-full max-w-7xl justify-center space-y-6 px-3 py-6">
+<div className='flex gap-4 w-[100vw] justify-center'>
+
             <Link href="/editor">
-            <Button  className="rounded-full w-[7rem] h-[1.5rem] sm:h-[2rem] sm:w-[9rem]
-    md:h-[2rem] md:w-[8rem] lg:h-[3rem] lg:w-[9rem] xl:h-[3rem] xl:w-[10rem]">
+            <Button  className="rounded-full p-2 w-[9rem] h-[3rem] sm:h-[3rem] sm:w-[9rem]
+    md:h-[3rem] md:w-[10rem] lg:h-[4rem] lg:w-[12rem] xl:h-[4rem] xl:w-[15rem]">
                 <PlusCircleIcon/>
                     Create Manual
                 
@@ -48,7 +49,7 @@ const ResumePageClient = ({resumes,totalResumeCount}:ResumePageClientProps) => {
 
                 </div>
 
-            <div className="space-y-1">
+            <div className="space-y-1 mx-auto w-full">
                 <h1 className="text-3xl font-bold">Your resumes : {totalResumeCount} </h1>
             </div>
 
